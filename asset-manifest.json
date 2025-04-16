@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Vassoler_institucional/static/css/main.04b045a2.css",
-    "main.js": "/Vassoler_institucional/static/js/main.25baa80b.js",
+    "main.js": "/Vassoler_institucional/static/js/main.359048a7.js",
     "static/media/sobre-banner.png": "/Vassoler_institucional/static/media/sobre-banner.f69f2eab65364629428e.png",
     "static/media/banner.png": "/Vassoler_institucional/static/media/banner.057a57f5c404dcf049fb.png",
     "static/media/frango.jpeg": "/Vassoler_institucional/static/media/frango.a4c984cdd09898ea2039.jpeg",
@@ -12,10 +12,10 @@
     "static/media/1024x512.png": "/Vassoler_institucional/static/media/1024x512.67079d6bfa04c8d6ae3c.png",
     "index.html": "/Vassoler_institucional/index.html",
     "main.04b045a2.css.map": "/Vassoler_institucional/static/css/main.04b045a2.css.map",
-    "main.25baa80b.js.map": "/Vassoler_institucional/static/js/main.25baa80b.js.map"
+    "main.359048a7.js.map": "/Vassoler_institucional/static/js/main.359048a7.js.map"
   },
   "entrypoints": [
     "static/css/main.04b045a2.css",
-    "static/js/main.25baa80b.js"
+    "static/js/main.359048a7.js"
   ]
 }
