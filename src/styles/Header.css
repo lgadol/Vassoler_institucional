@@ -1,0 +1,124 @@
+/* ============ CABEÇALHO SUPERIOR ============ */
+.cabeçalho_superior {
+    background-color: #d3d3d3;
+    height: 25px;
+    text-align: left;
+    margin-top: 0;
+    padding: 0 15px;
+}
+
+.cabeçalho_superior p {
+    color: rgb(136, 136, 136);
+    margin: 0;
+    margin-left: 20px;
+    font-size: 0.8rem;
+    line-height: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ============ CABEÇALHO MÉDIO ============ */
+.cabeçalho_medio {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.cabeçalho_medio img {
+    width: 320px;
+    height: 100px;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+/* ============ CABEÇALHO INFERIOR ============ */
+.cabeçalho_inferior {
+  background-color: #61a32b;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Menu Desktop (visível por padrão) */
+.menu-desktop {
+  display: flex;
+}
+
+.menu-desktop button {
+  text-decoration: none;
+  border: none;
+  background-color: #61a32b;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0 20px;
+  height: 50px;
+  transition: all 0.3s ease;
+}
+
+.menu-desktop button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Menu Mobile (oculto por padrão) */
+.menu-mobile {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #6cc225;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.menu-mobile.active {
+  display: flex;
+}
+
+.menu-mobile button {
+  width: 100%;
+  padding: 12px 20px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+/* Botão Hamburguer (oculto por padrão) */
+.menu-hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 15px;
+}
+
+/* ============ RESPONSIVIDADE ============ */
+@media (max-width: 768px) {
+  .menu-desktop {
+    display: none;
+  }
+  
+  .menu-hamburger {
+    display: block;
+  }
+  
+  .cabeçalho_inferior {
+    justify-content: center;
+    padding-left: 50px; /* Espaço para o hamburger */
+  }
+}
+
+@media (max-width: 600px) {
+  .menu-mobile button {
+    padding: 15px 20px;
+    font-size: 1rem;
+  }
+}

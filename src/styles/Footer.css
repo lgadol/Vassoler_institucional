@@ -1,0 +1,173 @@
+/* Geral */
+.rodape_main {
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Rodapé superior */
+.rodape_superior {
+    background-color: #d3d3d3;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.rodape_coluna {
+    flex: 1;
+    min-width: 250px;
+    padding: 0 15px;
+}
+
+.rodape_coluna h3 {
+    color: #c00;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+}
+
+.rodape_coluna p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #333333;
+    font-size: 0.95rem;
+}
+
+.rodape_coluna svg {
+    color: #c00;
+    font-size: 1.1rem;
+}
+
+/* Rodapé inferior */
+.rodape_inferior {
+    background-color: #333333;
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: rgb(136, 136, 136);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape_inferior a {
+    text-decoration: none;
+    transition: color 0.3s;
+    color: rgb(136, 136, 136);
+}
+
+.rodape_inferior a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* ============ RESPONSIVIDADE ============ */
+
+/* Tablets (768px a 1024px) */
+@media (max-width: 1024px) {
+    .rodape_superior {
+        padding: 30px 15px;
+        gap: 20px;
+    }
+
+    .rodape_coluna {
+        min-width: 200px;
+    }
+
+    .rodape_coluna h3 {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+
+    .rodape_coluna p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Tablets Pequenos (600px a 768px) */
+@media (max-width: 768px) {
+    .rodape_superior {
+        flex-direction: column;
+        height: auto;
+        padding: 25px 20px;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .rodape_coluna {
+        min-width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .rodape_coluna:last-child {
+        margin-bottom: 0;
+    }
+
+    .rodape_coluna h3 {
+        font-size: 1.1rem;
+    }
+
+    .rodape_inferior {
+        flex-direction: column;
+        height: auto !important;
+        padding: 12px 10px;
+        line-height: 1.5;
+    }
+}
+
+/* Celulares (até 600px) */
+@media (max-width: 600px) {
+    .rodape_superior {
+        padding: 20px 15px;
+        margin-top: 20px;
+    }
+
+    .rodape_coluna h3 {
+        font-size: 1rem;
+        padding-bottom: 8px;
+    }
+
+    .rodape_coluna p {
+        font-size: 0.85rem;
+        gap: 8px;
+    }
+
+    .rodape_coluna svg {
+        font-size: 1rem;
+    }
+
+    .rodape_inferior {
+        font-size: 0.8rem;
+        padding: 10px 5px;
+    }
+
+    .rodape_inferior p {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .rodape_inferior a {
+        margin-left: 0;
+    }
+}
+
+/* Celulares pequenos (até 400px) */
+@media (max-width: 400px) {
+    .rodape_coluna p {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .rodape_coluna svg {
+        margin-right: 5px;
+    }
+}

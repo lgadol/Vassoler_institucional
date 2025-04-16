@@ -1,0 +1,57 @@
+/* Geral */
+.home_main {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner_encomenda {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Banner de encomenda */
+.banner_encomenda {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.banner_encomenda:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+    .home_main {
+        padding: 8px;
+    }
+}
+
+.conjunto_atalhos {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.atalho_link {
+    flex: 1;
+    display: block;
+}
+
+.atalho_img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.atalho_img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

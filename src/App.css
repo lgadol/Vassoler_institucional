@@ -32,7 +32,20 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Garante que o container ocupe pelo menos a altura da viewport */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Faz o conteúdo principal crescer e empurrar o footer para baixo */
+.main-content {
+  flex: 1;
 }
