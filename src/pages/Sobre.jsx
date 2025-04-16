@@ -8,8 +8,8 @@ export const Sobre = () => {
             {/* Hero Section */}
             <section className="sobre-hero">
                 <div className="hero-content">
-                    <h1>Nossa História</h1>
-                    <p className="hero-subtitle">matue</p>
+                    <h1>MATUE</h1>
+                    <p className="hero-subtitle">Tradição e qualidade desde 2003</p>
                 </div>
             </section>
 
