@@ -19,6 +19,8 @@ Configurações feitas no package.json:
 }
 
 # Adicionada arquivo ".github/workflows/deploy.yml" para subir atualizações automaticamente sem necessidade de refazer o deploy
+Acompanhar os deploys em tempo real por aqui:
+https://github.com/lgadol/Vassoler_institucional/actions
 
 # Comandos para rebuildar aplicação:
 LIMPAR CACHE BUILD: npm -rf build
