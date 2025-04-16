@@ -30,3 +30,5 @@ FAZER DEPLOY: npm run deploy
 
 # Site usado para mudar o domínio "app.bitly.com".
 https://bit.ly/acouguevassoler
+
+# Configurado Google Analytics para monitorar interações
