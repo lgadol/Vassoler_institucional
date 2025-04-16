@@ -9,7 +9,7 @@ export const Footer = () => {
                 <div className="rodape_coluna">
                     <h3>Contato</h3>
                     <p><FaPhone /> (54) 3242-4702</p>
-                    <p><FaWhatsapp /> (54) 99206-8276</p>
+                    <p><FaWhatsapp /> (54) 99686-8439</p>
                     <p><FaEnvelope /> acouguevassoler@gmail.com</p>
                 </div>
 

@@ -10,7 +10,7 @@ export const Home = () => {
 
     return (
         <div className="home_main">
-            <a href="https://wa.me/5554992068276" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5554996868439" target="_blank" rel="noopener noreferrer">
                 <img src={banner} className='banner_encomenda' alt="WhatsApp" />
             </a>
             <div className="conjunto_atalhos">

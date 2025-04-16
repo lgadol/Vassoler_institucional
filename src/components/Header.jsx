@@ -62,7 +62,7 @@ export const Header = () => {
                                 <FaWhatsapp className="contato-icon" />
                                 <div>
                                     <h3>WhatsApp</h3>
-                                    <p>(54) 99206-8276</p>
+                                    <p>(54) 99686-8439</p>
                                 </div>
                             </div>
                             <div className="contato-item">
