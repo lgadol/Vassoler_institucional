@@ -112,7 +112,7 @@
   
   .cabeçalho_inferior {
     justify-content: center;
-    padding-left: 50px; /* Espaço para o hamburger */
+    padding-left: 50px;
   }
 }
 
@@ -120,5 +120,84 @@
   .menu-mobile button {
     padding: 15px 20px;
     font-size: 1rem;
+  }
+}
+
+/* Modal de Contato */
+.contato-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.contato-modal {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.fechar-modal {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #666;
+}
+
+.contato-modal h2 {
+  color: #c00;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contato-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contato-item {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.contato-icon {
+  color: #c00;
+  font-size: 1.5rem;
+  margin-top: 3px;
+}
+
+.contato-item h3 {
+  color: #333;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+.contato-item p {
+  color: #666;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .contato-modal {
+      padding: 20px;
+      width: 95%;
   }
 }

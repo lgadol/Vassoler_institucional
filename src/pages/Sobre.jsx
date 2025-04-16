@@ -9,7 +9,7 @@ export const Sobre = () => {
             <section className="sobre-hero">
                 <div className="hero-content">
                     <h1>Nossa História</h1>
-                    <p className="hero-subtitle">Tradição e qualidade desde 1995</p>
+                    <p className="hero-subtitle">Tradição e qualidade desde 2003</p>
                 </div>
             </section>
 
@@ -18,18 +18,21 @@ export const Sobre = () => {
                 <div className="sobre-texto">
                     <h2><FaHistory className="icon" /> Nossa Jornada</h2>
                     <p>
-                        Fundado em 1995, o Açougue e Mercado Vassoler começou como um pequeno negócio familiar 
-                        no coração da cidade. Com o tempo, através de muito trabalho e dedicação, nos tornamos 
-                        referência em qualidade e atendimento na região.
+                        Tudo começou em 2003, quando nós, vindos de outra cidade, decimos recomeçar a vida com coragem e muito trabalho. Na época, era apenas uma pequena fruteira, simples, mas cheia de vontade de crescer.
                     </p>
                     <p>
-                        Nosso segredo? A paixão por cortes selecionados e o compromisso com cada cliente que 
-                        entra pela nossa porta.
+                        Com o tempo, a dedicação e o carinho que fazemos questão de entregar a cada cliente fez o negócio evoluir. A fruteira deu lugar a um açougue e, depois, também a um mercado. Tudo isso montado na mesma sala onde tudo começou — a mesma onde estamos até hoje.
+                    </p>
+                    <p>
+                        Desde o primeiro dia, o trabalho sempre foi feito em familia, sem funcionários, com muito esforço, amor e compromisso com a qualidade. Cada corte de carne, cada produto na prateleira, tudo é escolhido com cuidado, porque aqui a prioridade sempre foi oferecer confiança e bom atendimento para cada cliente que entra por nossa porta.
+                    </p>
+                    <p>
+                        Essa é a essência do nosso açougue e mercado: uma história de família, construída com honestidade, trabalho duro e muita gratidão.
                     </p>
                 </div>
                 <div className="sobre-imagem">
-                    {/* Substitua pela sua imagem */}
-                    <div className="imagem-placeholder"></div>
+                    <img src={require('../img/sobre2.png')}
+                        alt="Açougue Vassoler" />
                 </div>
             </section>
 
@@ -50,19 +53,9 @@ export const Sobre = () => {
                     <div className="diferencial-card">
                         <FaAward className="diferencial-icon" />
                         <h3>Tradição</h3>
-                        <p>Mais de 25 anos de experiência no mercado</p>
+                        <p>Mais de 20 anos de experiência no mercado</p>
                     </div>
                 </div>
-            </section>
-
-            {/* Equipe */}
-            <section className="equipe-section">
-                <h2>Conheça Nossa Equipe</h2>
-                <p>
-                    Nossa equipe é formada por profissionais dedicados que compartilham o mesmo 
-                    compromisso com a qualidade e o atendimento personalizado.
-                </p>
-                {/* Adicione fotos da equipe aqui */}
             </section>
         </div>
     )

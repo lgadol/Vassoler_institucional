@@ -1,0 +1,144 @@
+/* Encomendas.css */
+.encomendas-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #333;
+    padding-bottom: 40px;
+}
+
+/* Hero Section */
+.encomendas-hero {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../img/frango.jpeg') center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* Processo de Encomenda */
+.passos-encomenda {
+    margin-bottom: 60px;
+}
+
+.passos-encomenda h2 {
+    color: #c00;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.passo {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+.passo-numero {
+    background-color: #c00;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.passo-conteudo h3 {
+    color: #c00;
+    margin-bottom: 8px;
+}
+
+/* Encomendas */
+.encomendasTexto-section {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+}
+
+.encomendas-texto {
+    flex: 1;
+}
+
+.encomendas-texto h1,
+.encomendas-texto h2 {
+    color: #c00;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Informações Importantes */
+.info-importante {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+}
+
+.info-importante h2 {
+    color: #c00;
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.info-card {
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+}
+
+.info-icon {
+    font-size: 2rem;
+    color: #c00;
+    margin-bottom: 15px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .passo {
+        flex-direction: column;
+    }
+
+    .info-card,
+    .corte-card {
+        min-width: 100%;
+    }
+}

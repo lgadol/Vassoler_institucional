@@ -8,9 +8,9 @@
 
 /* Hero Section */
 .sobre-hero {
-    background: linear-gradient(rgba(0,0,0,0.5), url('../img/sobre-banner.jpg'));
-    background-size: cover;
-    background-position: center;
+    background: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('../img/sobre-banner.png') center/cover;
     height: 300px;
     display: flex;
     align-items: center;
@@ -52,12 +52,13 @@
 
 .sobre-imagem {
     flex: 1;
-}
-
-.imagem-placeholder {
     height: 350px;
     background-color: #f5f5f5;
-    border-radius: 8px;
+}
+
+.sobre-imagem img {
+    height: 350px;
+    width: 580px;
 }
 
 /* Diferenciais */
@@ -65,7 +66,6 @@
     background-color: #f9f9f9;
     padding: 50px 20px;
     margin-bottom: 60px;
-    border-radius: 8px;
 }
 
 .diferenciais h2 {
@@ -87,7 +87,6 @@
     text-align: center;
     padding: 30px 20px;
     background: white;
-    border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
 }
