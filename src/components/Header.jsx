@@ -20,7 +20,7 @@ export const Header = () => {
                     <p>Bem-vindo!</p>
                 </div>
                 <div className="cabeçalho_medio">
-                    <Link to="/"> <img src={logo} className='logo_1024x512' /> </Link>
+                    <Link to="/"> <img src={logo} className='logo_1024x512' alt="Logo" /> </Link>
                 </div>
                 <div className="cabeçalho_inferior">
                     {/* Botão do menu hamburger (visível apenas em mobile) */}

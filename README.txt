@@ -18,7 +18,7 @@ Configurações feitas no package.json:
   }
 }
 
-# Adicionada arquivo ".github/workflows/deploy.yml"
+# Adicionada arquivo ".github/workflows/deploy.yml" para faze
 
 # Comandos para rebuildar aplicação:
 LIMPAR CACHE BUILD: npm -rf build
