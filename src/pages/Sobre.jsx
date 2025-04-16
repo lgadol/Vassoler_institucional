@@ -9,7 +9,7 @@ export const Sobre = () => {
             <section className="sobre-hero">
                 <div className="hero-content">
                     <h1>Nossa História</h1>
-                    <p className="hero-subtitle">Tradição e qualidade desde 2003</p>
+                    <p className="hero-subtitle">matue</p>
                 </div>
             </section>
 
